@@ -1,0 +1,9 @@
+name: McX And Me
+description: A blog documenting the relationship between science and philosophy.
+url: "[http://localhost:4000]"
+
+paginate: 2
+
+markdown: rdiscount
+permalink: pretty
+pygments: true

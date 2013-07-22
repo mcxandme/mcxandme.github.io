@@ -1,0 +1,12 @@
+<h3>About Me</h3>
+
+<p>My name is Jaime. I live outside Washington, DC with my awesome boyfriend Eric and our dog, Harvey Milkbone.</p>
+<p>I love science and philosophy, and I'm here to show you that you do too! </p>
+
+<h3>Recent Posts</h3>
+
+<ul>
+  {% for post in site.posts limit: 5 %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
